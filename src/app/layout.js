@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import MainNav from "@/components/Navbar/MianNav/MainNav";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,6 +17,8 @@ export default function RootLayout({ children }) {
         <MainNav />
 
         {children}
+
+        <Footer />
       </body>
     </html>
   );
