@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer class="font-sans tracking-wide bg-black px-8 py-12">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
+      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-10">
         <div>
           <a href="javascript:void(0)">
             <h2 className="text-2xl font-black text-white">
